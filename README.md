@@ -70,16 +70,16 @@ XGBoost achieved the best performance among the evaluated forecasting models and
 
 ## Project Structure
 
-Demand Forecasting and Sales Prediction/
+
+Demand-Forecasting-Sales-Prediction/
 │
 ├── .venv/
 │
 ├── data/
-│   ├── processed/
-│   │   └── xgboost_daily_comparison.csv
-│   │
-│   └── raw/
-│       └── store_sales.csv
+│   ├── raw/
+│   │   └── store_sales.csv
+│   └── processed/
+│       └── xgboost_daily_comparison.csv
 │
 ├── models/
 │   └── xgboost_sales_model.pkl
@@ -97,13 +97,15 @@ Demand Forecasting and Sales Prediction/
 │   └── forecasting.py
 │
 ├── visualizations/
-│   └── EDA graphs, model evaluation graphs,
-│       and dashboard screenshots
+│   ├── EDA graphs
+│   ├── Model evaluation graphs
+│   └── Dashboard screenshots
 │
 ├── app.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
 
 ## Streamlit Dashboard
 
@@ -133,29 +135,29 @@ The dashboard contains three main sections.
 ## Dashboard Screenshots
 
 ### Dashboard
-![ Business Overview](screenshots\dashboard_1.png)
+![ Business Overview](screenshots/dashboard_1.png)
 
-![Historical Sales Overview](screenshots\dashboard_2.png)
+![Historical Sales Overview](screenshots/dashboard_2.png)
 
-![Business Insights](screenshots\dashboard_3.png)
+![Business Insights](screenshots/dashboard_3.png)
 
 ### Sales Forecast
 
-![Forecast Settings](screenshots\forecast_1.png)
+![Forecast Settings](screenshots/forecast_1.png)
 
-![Daily Sales Forecast](screenshots\forecast_2.png)
+![Daily Sales Forecast](screenshots/forecast_2.png)
 
-![Daily Sales Forecast graph](screenshots\forecast_3.png)
+![Daily Sales Forecast graph](screenshots/forecast_3.png)
 
-![Forecast Summary](screenshots\forecast_4.png)
+![Forecast Summary](screenshots/forecast_4.png)
 
 ### Model Performance
 
-![Model Comparison](screenshots\model_performance_1.png)
+![Model Comparison](screenshots/model_performance_1.png)
 
-![Actual vs Predicted Sales](screenshots\model_performance_2.png)
+![Actual vs Predicted Sales](screenshots/model_performance_2.png)
 
-![Model Information](screenshots\model_performance_3.png)
+![Model Information](screenshots/model_performance_3.png)
 
 
 
