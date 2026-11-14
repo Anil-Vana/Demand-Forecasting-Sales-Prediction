@@ -68,18 +68,19 @@ Models were evaluated using daily aggregated sales for January–December 2017.
 
 XGBoost achieved the best performance among the evaluated forecasting models and was selected for future sales predictions.
 
+
 ## Project Structure
 
-
+```text
 Demand-Forecasting-Sales-Prediction/
 │
 ├── .venv/
 │
 ├── data/
-│   ├── raw/
-│   │   └── store_sales.csv
-│   └── processed/
-│       └── xgboost_daily_comparison.csv
+│   ├── processed/
+│   │   └── xgboost_daily_comparison.csv
+│   └── raw/
+│       └── store_sales.csv
 │
 ├── models/
 │   └── xgboost_sales_model.pkl
@@ -105,7 +106,7 @@ Demand-Forecasting-Sales-Prediction/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 
 ## Streamlit Dashboard
 
@@ -169,8 +170,6 @@ The dashboard contains three main sections.
 ```bash
 git clone https://github.com/Anil-Vana/Demand-Forecasting-Sales-Prediction.git
 cd Demand-Forecasting-Sales-Prediction
-```
-
 ```
 
 ### 2. Create a Virtual Environment
